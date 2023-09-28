@@ -2,6 +2,7 @@
   "name": "sss",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://dmitriyshkredov.github.io/react-icons-example",
   "type": "module",
   "scripts": {
     "dev": "vite --port 3000 --open",
@@ -10,6 +11,8 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^6.0.0",
+    "gsap": "^3.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
