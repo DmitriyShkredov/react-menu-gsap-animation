@@ -1,0 +1,16 @@
+.main {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(#15364d, #000000);
+}
+
+.main-h1 {
+  font-size: 90px;
+  line-height: 1;
+  font-weight: 700;
+  color: #0c2029;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
