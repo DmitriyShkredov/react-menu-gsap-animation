@@ -1,5 +1,6 @@
 .menu-button {
   position: relative;
+  margin-left: auto;
   width: 42px;
   height: 38px;
   padding: 0;
@@ -7,7 +8,7 @@
   border-radius: 5px;
   background-color: transparent;
   cursor: pointer;
-  transform: scale(3);
+  z-index: 1;
 }
 
 .menu-button-line {
@@ -35,10 +36,8 @@
 
 .menu-button-line:nth-child(4) {
   transform: translate(-50%, -50%) rotate(-45deg);
-  background-color: #ff0000;
 }
 
 .menu-button-line:nth-child(5) {
   transform: translate(-50%, -50%) rotate(45deg);
-  background-color: #ff0000;
 }

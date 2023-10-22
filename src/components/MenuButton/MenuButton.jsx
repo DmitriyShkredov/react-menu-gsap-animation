@@ -1,11 +1,11 @@
 import "./MenuButton.css";
-import { useState, useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
+import { PropTypes } from "prop-types";
 
-export const MenuButton = () => {
-  gsap.defaults({ duration: 0.3 });
+export const MenuButton = ({ isActive, setActive }) => {
+  gsap.defaults({ duration: 0.2 });
   const tlRef = useRef(null);
-  const [isActive, setActive] = useState();
   useLayoutEffect(() => {
     if (isActive) {
       tlRef.current = gsap
@@ -40,4 +40,9 @@ export const MenuButton = () => {
       <span className="menu-button-line" id="line5"></span>
     </button>
   );
+};
+
+MenuButton.propTypes = {
+  isActive: PropTypes.bool,
+  setActive: PropTypes.func,
 };
