@@ -2,6 +2,8 @@
 
 #### `Demo:` https://dmitriyshkredov.github.io/react-menu-gsap-animation/
 
+#### `Telegram:` [https://t.me/tipichnyj_web_razrabotchik](https://t.me/tipichnyj_web_razrabotchik)
+
 #### `Youtube:` [Анимация кнопки меню в React JS + GSAP | Hamburger Button animation](https://youtu.be/tSQ5dbRgn6E)
 
 #### `VK Video`: [Анимация кнопки меню в React JS + GSAP | Hamburger Button animation](https://vk.com/video/@tipichnyjvebrazrabotchik?z=video-222570561_456239048%2Fclub222570561%2Fpl_-222570561_-2)
